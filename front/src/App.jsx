@@ -5,7 +5,8 @@ import Completed from './components/Completed';
 import Important from './components/Important';
 import Procedding from './components/Proceeding';
 import Home from './components/Home'
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
 
 const App =() => {
   
@@ -18,6 +19,14 @@ const App =() => {
     <Route path ="/important" element ={<Important/>} />
     <Route path ="/proceeding" element ={<Procedding/>} />
   </Routes>
+  
+  
+<ToastContainer
+position="bottom-center"
+autoClose={1000}
+theme="dark"
+
+ />
   </div>
   </BrowserRouter>
     

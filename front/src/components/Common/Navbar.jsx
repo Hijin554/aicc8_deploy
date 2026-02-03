@@ -18,7 +18,7 @@ const Navbar = () => {
 
 
 
-  const uesrKey = state?.sub;
+  const userKey = state?.sub;
   const {name} = state || {}
   const [isAuth, setIsAuth] =useState(!!name)
 

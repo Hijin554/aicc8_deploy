@@ -7,10 +7,10 @@ function index() {
     <div className="page_section">
 
 
-      <Navbar/>
-      <ItemPanel pageTitle="Important Items"/>
-      
-      </div>
+      <Navbar />
+      <ItemPanel pageTitle="Important Items" filterCompleted="all" filteredImportant={true} />
+
+    </div>
   )
 }
 

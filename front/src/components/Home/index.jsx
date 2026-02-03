@@ -7,10 +7,10 @@ const index = () => {
     <div className="page_section">
 
 
-      <Navbar/>
-      <ItemPanel pageTitle =' All Items'/>
-      
-      </div>
+      <Navbar />
+      <ItemPanel pageTitle=' All Items' filterCompleted='all' />
+
+    </div>
   )
 }
 

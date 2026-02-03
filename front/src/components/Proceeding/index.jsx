@@ -8,9 +8,9 @@ const index = () => {
 
 
       <Navbar />
-      <ItemPanel pageTitle = "Incompleted Items"/>
+      <ItemPanel pageTitle="Incompleted Items" filterCompleted={false} />
 
-      </div>
+    </div>
   )
 };
 

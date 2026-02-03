@@ -1,12 +1,14 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
 
 import authReducer from './slides/authSlice';
-import modalReducer from './slices/modalSlice';
+import modalReducer from './slides/modalSlice';
+import apiReducer from './slides/apiSlice'
 
 const store = configureStore({
   reducer: combineReducers({
     auth: authReducer,
-    modal: modalReducer
+    modal: modalReducer,
+    api: apiReducer,
   }),
 });
 
